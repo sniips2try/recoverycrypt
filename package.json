@@ -1,10 +1,12 @@
 {
-  "name": "web-creator",
+  "name": "recoverycrypt",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node scripts/build.mjs",
-    "build": "node scripts/build.mjs --production"
-  },
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-accordion": "^1.2.8",
